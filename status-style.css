@@ -1,0 +1,17 @@
+/* 物理攻擊 */
+#physical-attack {
+    font-size: 10px;
+    position: absolute;
+    width: 40%;
+    left: 10px;
+    top: 20%;
+}
+
+/* 物理防禦 */
+#physical-defense{
+    font-size: 10px;
+    position: absolute;
+    width: 40%;
+    right: 10px;
+    top: 20%;
+}

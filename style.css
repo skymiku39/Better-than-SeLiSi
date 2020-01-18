@@ -1,0 +1,64 @@
+:root {
+    --main-color: #369;
+    --main-sidebar-width: 150px;
+}
+
+#sitebody {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+body {
+    background: #FFBB73;
+    color: #777;
+}
+
+div {
+    font: bold italic sans-serif;
+    color: green;
+}
+
+#header {
+    height: 30px;
+    text-align: center;
+    /* line-height: 80px; */
+}
+
+#sidebar_left {
+    position: relative;
+    padding:1%;
+    background-color: #FFECC9;
+    width: 18%;
+    height: 400px;
+    text-align: center;
+    float: left;
+}
+
+#sidebar_right {
+    position: relative;
+    padding:1%;
+    background-color: #FFECC9;
+    width: 18%;
+    height: 400px;
+    text-align: center;
+    vertical-align:text-top;
+    float: left;
+}
+
+#content {
+    padding:1%;
+    height: 400px;
+    width: 58%;
+    background-color: #F2FFF2;
+    text-align: left;
+    float: left;
+}
+
+#footer {
+    clear: both;
+    background-color: #FFD4D4;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
